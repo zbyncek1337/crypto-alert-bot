@@ -3,4 +3,4 @@ builder = "dockerfile"
 
 [deploy]
 startCommand = "python3 bot/main.py"
-restartPolicyType = "always"
+restartPolicyType = "On Failure"
