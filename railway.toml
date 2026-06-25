@@ -3,4 +3,4 @@ builder = "nixpacks"
 
 [deploy]
 startCommand = "python3 bot/main.py"
-restartPolicyType = "always"
+restartPolicyType = "ON_FAILURE"
