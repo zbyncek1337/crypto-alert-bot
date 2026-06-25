@@ -4,8 +4,8 @@ import requests
 from telegram import Bot
 from telegram.error import TelegramError
 
-TOKEN   = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+TOKEN   = os.environ.get("token8770895547:AAEzibR6quC0_Y_YuX3KwBWfTQKMKPVBTX0")
+CHAT_ID = os.environ.get("6166409040")
 
 COINS = {
     "SOL/USDT":  "SOLUSD",
